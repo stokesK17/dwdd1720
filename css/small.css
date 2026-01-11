@@ -21,6 +21,7 @@ header {
     justify-content: center;
     padding: .5rem 2vw;
     align-items: center;
+
 }
 
 header h1 {
@@ -36,6 +37,7 @@ section.who {
     display: flex;
     justify-content: space-between;
     font-size: 1.2rem;
+
 }
 
 section.who p {
@@ -50,11 +52,13 @@ section.about {
 
 section.about p {
     margin: 0;
+    color: #777;
 }
 
 section.about ul {
     margin: 0;
     padding: 0;
+    color: #777;
 }
 
 section.about div {
@@ -74,6 +78,7 @@ section.about div ul {
 
 h2 {
     font-size: 1rem;
+    color: rgb(250, 116, 177);
 }
 
 .popbox ul li {
@@ -104,4 +109,6 @@ h2 {
 footer {
     padding: 1rem;
     text-align: center;
+    color: #eee;
+
 }

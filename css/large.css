@@ -11,9 +11,12 @@
         font-size: 2.5rem;
     }
 
-    .assingments {
+    .assignments {
         column-count: 3;
     }
-}
 
-/* end media query*/
+    .assignments a {
+        display: block;
+    }
+
+    /* end media query*/
