@@ -41,3 +41,37 @@ section.who {
 section.who p {
     margin: 0;
 }
+
+section.about {
+    display: flex;
+    background-color: azure;
+    padding: .5rem;
+}
+
+section.about p {
+    margin: 0;
+}
+
+section.about ul {
+    margin: 0;
+    padding: 0;
+}
+
+section.about div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: .5rem;
+    width: 100%;
+}
+
+section.about div ul {
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: .5rem;
+    list-style-position: inside;
+}
+
+h2 {
+    font-size: 1rem;
+}
