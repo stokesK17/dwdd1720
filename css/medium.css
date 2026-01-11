@@ -1,17 +1,28 @@
 @media only screen and (min-width: 35rem) {
+    header {
+        grid-template-columns: 50px auto;
+    }
 
     header h1 {
-        size: 2rem;
+        font-size: 2rem;
     }
 
     section.who {
         font-size: 1.6rem;
     }
 
+    section.stack figure {
+        flex-basis: 25%;
+    }
+
     h2 {
         font-size: 1.5rem;
     }
 
+}
+
+.assignments {
+    column-count: 2;
 }
 
 /* end media query*/
