@@ -1,7 +1,13 @@
 @media only screen and (min-width: 35rem) {
 
-    header{
+    header h1 {
         size: 2rem;
     }
-    
-} /* end media query*/
+
+    section.who {
+        font-size: 1.6rem;
+    }
+
+}
+
+/* end media query*/
