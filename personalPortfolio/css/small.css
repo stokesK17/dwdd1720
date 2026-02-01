@@ -1,0 +1,134 @@
+/* ======================
+   Global Defaults
+====================== */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Space Mono", monospace;
+    --regular: 400;
+    --bold: 700;
+}
+
+/* ======================
+   Navigation
+====================== */
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(92, 64, 118);
+    z-index: 100;
+    color: rgb(55, 38, 71);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 1rem 0.75rem;
+    font-weight: var(--bold);
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.159);
+    color: rgb(92, 64, 118);
+}
+
+/* ======================
+   About Section
+====================== */
+
+#about {
+    background-color: rgb(55, 38, 71);
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+    color: rgb(92, 64, 118);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about h1 {
+    color: rgb(92, 64, 118);
+    font-size: 2rem;
+}
+
+#about h2 {
+    font-size: 1.5rem;
+    color: rgb(92, 64, 118);
+}
+
+/* ======================
+   Projects Section
+====================== */
+
+#projects {
+    background-color: rgb(92, 64, 118);
+    min-height: 100vh;
+    padding: 2rem 2rem;
+    color: rgb(55, 38, 71);
+}
+
+/* Responsive grid */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.parent a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.parent figure {
+    margin: 0;
+}
+
+.parent img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ======================
+   Contact Section
+====================== */
+
+#contact {
+    position: sticky;
+    top: 0;
+    background-color: rgb(55, 38, 71);
+    min-height: 100vh;
+}
+
+#contact h2 {
+    color: rgb(92, 64, 118);
+    padding: 2rem;
+}
+#contact p {
+    padding: 0 2rem;
+}
