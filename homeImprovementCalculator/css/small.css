@@ -1,0 +1,100 @@
+/* Prevent font-size adjustments after orientation changes */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* Apply natural box model to all elements */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: "Space Mono", monospace;
+    --primaryColor: #67ace8;
+}
+
+/* Header */
+header h1 {
+    text-align: center;
+    margin: 0;
+    padding: 1rem 2%;
+    font-size: 1.5rem;
+    color: var(--primaryColor);
+}
+
+/* Centered data card */
+.data {
+    margin: 1rem auto;
+    padding: 1rem 4%;
+    background-color: #fefefe;
+    border-radius: 20px;
+    box-shadow: 0 0 6px #ccc;
+    width: fit-content;
+}
+
+/* Form elements */
+.data label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.data input {
+    width: 60px;
+}
+
+.data button {
+    width: 100%;
+    padding: 0.5rem 0;
+    margin: 1rem 0;
+    background-color: #4f84b1;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px #777;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+/* Results section */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section div {
+    margin: 1rem 2%;
+    flex-basis: 96%;
+    background-color: #fafafa;
+    border-radius: 0 0 10px 10px;
+}
+
+section h2 {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    padding: 0.5rem 0;
+    background-color: #285074;
+    color: white;
+}
+
+section ul {
+    list-style-type: square;
+}
+
+section ul li::marker {
+    color: var(--primaryColor);
+}
+
+
+/* Footer */
+footer {
+    background-color: var(--primaryColor);
+    padding: 1rem 2%;
+    color: white;
+    text-align: center;
+}
