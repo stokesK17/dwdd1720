@@ -1,0 +1,27 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*  apply a natural box layout model to all elements  */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cards figure {
+    margin: 0 2%;
+    padding: 0 2%;
+    flex-basis: 96%;
+}
+
+#cards img {
+    width: 100%;
+}
