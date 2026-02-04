@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kylie Stokes Wellness Tracker</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+    <div id="newProfile">
+        <p>Please complete your emotional profile</p>
+        <form>
+            <label>First: <input type="text" name="first" required></label>
+            <label>Last: <input type="text" name="last" required></label>
+            <label>Emotional State: <select id="physical">
+                    <option value="https://openmoji.org/data/color/svg/1F600.svg">Happy</option>
+                    <option value="https://openmoji.org/data/color/svg/1F60F.svg">Sassy</option>
+                    <option value="https://openmoji.org/data/color/svg/1F620.svg">Angry</option>
+                    <option value="https://openmoji.org/data/color/svg/1F610.svg">Bored</option>
+                </select></label>
+            <input type="submit" value="Save Profile" id="saveProfile">
+        </form>
+    </div>
+
+    <!-- between -->
+
+    <div id="myProfile">
+        <section>
+            <img src="" id="emoji">
+            <p><span id="first"></span> <span id="last"></span> is currently feeling <span id="emotion"></span>.</p>
+        </section>
+        <button id="delProfile">Delete Profile</button>
+    </div>
+
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
