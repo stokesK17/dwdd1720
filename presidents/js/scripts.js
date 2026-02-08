@@ -1,6 +1,5 @@
 import { presidents } from '../data/presidents.js';
 
-const pathStart = "//www.loc.gov/static/portals/free-to-use/public-domain/presidential-portraits/";
 const myTarget = document.querySelector('#cards');
 
 for (let x = 0; x < presidents.length; x++) {
