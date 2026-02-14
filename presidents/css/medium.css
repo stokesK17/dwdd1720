@@ -1,0 +1,22 @@
+@media only screen and (min-width: 35rem) {
+
+    #cards figure {
+        flex-basis: 46%;
+    }
+
+    #cards {
+        justify-content: space-between;
+    }
+
+    #cards .card {
+        padding: 1.25rem;
+    }
+
+    #cards .card p {
+        font-size: 1.35rem;
+        letter-spacing: 0.08em;
+    }
+
+    #cards img {
+        filter: grayscale(100%) contrast(1.15) brightness(0.95);
+    }
