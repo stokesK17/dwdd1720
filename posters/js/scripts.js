@@ -1,15 +1,11 @@
-// ==========================
-// scripts.js
-// ==========================
+
 import { films } from "./films.js";
 
 const main = document.querySelector("main");
 const gridView = document.querySelector("#gridView");
 const listView = document.querySelector("#listView");
 
-// ==========================
-// Poster Image Map (LOCAL)
-// ==========================
+
 const posterImages = {
     1: "images/episode1.webp",
     2: "images/episode2.webp",
@@ -20,9 +16,7 @@ const posterImages = {
     7: "images/episode7.webp"
 };
 
-// ==========================
-// Grid / List Toggle
-// ==========================
+
 function updateIcons() {
     if (main.classList.contains("grid")) {
         gridView.style.display = "none";
@@ -48,14 +42,10 @@ listView.addEventListener("click", () => {
 // Initialize icons on load
 updateIcons();
 
-// ==========================
-// Sort Films by Episode
-// ==========================
+
 const sortedFilms = films.sort((a, b) => a.episode_id - b.episode_id);
 
-// ==========================
-// Build Cards
-// ==========================
+
 function displayMovies() {
     sortedFilms.forEach(film => {
         const card = document.createElement("section");
