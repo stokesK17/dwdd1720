@@ -1,0 +1,136 @@
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Geo", sans-serif;
+    background-color: #0b1f3a;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    background-color: #142850;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #f5c518;
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+#gridView,
+#listView {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#gridView:hover,
+#listView:hover {
+    transform: translateY(-50%) scale(1.1);
+}
+
+
+main {
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+
+main.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+main.list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+main.list .card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+main.list .card img {
+    width: 140px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+
+.card {
+    background-color: #1f4068;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+}
+
+.card h2 {
+    color: #f5c518;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.card .card-info {
+    flex: 1;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #142850;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #f5f5f5;
+    letter-spacing: 0.5px;
+}
+
