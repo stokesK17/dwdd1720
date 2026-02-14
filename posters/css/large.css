@@ -1,0 +1,19 @@
+@media only screen and (min-width: 60rem) {
+
+    main.grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    main.list h2 {
+        font-size: 1.75rem;
+    }
+
+    main.list p {
+        font-size: 1.5rem;
+    }
+
+}
