@@ -1,0 +1,117 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Geo", sans-serif;
+    background-color: #0b1f3a;
+    color: #ffffff;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+header {
+    padding: 1rem;
+}
+
+h1 {
+    color: #f5c518;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 1rem;
+}
+
+nav button {
+    font-family: inherit;
+    background-color: #f5c518;
+    color: #0b1f3a;
+    border: none;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+}
+
+
+#peopleHere {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 1rem;
+}
+
+
+#peopleHere figure {
+    margin: 0;
+    padding: 10px;
+    width: 150px;
+    background-color: #13294b;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#peopleHere figure:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+#peopleHere figure.female {
+    border: solid 4px #f518c9;
+}
+
+#peopleHere figure.male {
+    border: solid 4px #186df5;
+}
+
+#peopleHere figure.other {
+    border: solid 4px #817e73;
+}
+
+
+#peopleHere img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+
+#peopleHere figcaption {
+    margin-top: 8px;
+    font-size: 1rem;
+}
+
+
+footer {
+    color: #f5c518;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    background-color: #09172b;
+}

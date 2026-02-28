@@ -1,0 +1,50 @@
+@media only screen and (min-width: 60rem) {
+
+    header,
+    nav,
+    main,
+    footer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        letter-spacing: 3px;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    nav button {
+        font-size: 1.2rem;
+        padding: 12px 24px;
+    }
+
+    nav button:hover {
+        box-shadow: 0 0 12px rgba(245, 197, 24, 0.8);
+    }
+
+    #peopleHere {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 35px;
+        padding: 3rem 2rem;
+    }
+
+    #peopleHere figure {
+        max-width: 240px;
+        padding: 20px;
+    }
+
+    #peopleHere img {
+        border-radius: 8px;
+    }
+
+    #peopleHere figcaption {
+        font-size: 1.2rem;
+        margin-top: 12px;
+    }
+
+}

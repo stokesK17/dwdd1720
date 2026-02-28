@@ -1,0 +1,34 @@
+@media only screen and (min-width: 35rem) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    nav {
+        gap: 20px;
+    }
+
+    nav button {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+    }
+
+    #peopleHere {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 25px;
+        padding: 2rem;
+    }
+
+    #peopleHere figure {
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    #peopleHere figcaption {
+        font-size: 1.1rem;
+    }
+
+}
