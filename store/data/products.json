@@ -1,0 +1,91 @@
+{
+  "storeName": "Tech Store",
+  "location": "New York, USA",
+  "currency": "USD",
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Bluetooth Headphones",
+      "brand": "SoundMax",
+      "category": "Electronics",
+      "price": 79.99,
+      "inStock": true,
+      "rating": 4.5,
+      "tags": [
+        "wireless",
+        "bluetooth",
+        "audio"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Smart Fitness Watch",
+      "brand": "FitPro",
+      "category": "Wearables",
+      "price": 129.99,
+      "inStock": true,
+      "rating": 4.2,
+      "tags": [
+        "fitness",
+        "health",
+        "smartwatch"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Gaming Laptop 15.6\"",
+      "brand": "PowerCore",
+      "category": "Computers",
+      "price": 999.99,
+      "inStock": false,
+      "rating": 4.7,
+      "tags": [
+        "gaming",
+        "laptop",
+        "high-performance"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "4K Ultra HD Smart TV 55\"",
+      "brand": "ViewPlus",
+      "category": "Home Entertainment",
+      "price": 549.99,
+      "inStock": true,
+      "rating": 4.4,
+      "tags": [
+        "4K",
+        "smart TV",
+        "LED"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Wireless Charging Pad",
+      "brand": "ChargeHub",
+      "category": "Accessories",
+      "price": 29.99,
+      "inStock": true,
+      "rating": 4.1,
+      "tags": [
+        "wireless",
+        "charger",
+        "fast-charge"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Mechanical Gaming Keyboard",
+      "brand": "KeyStrike",
+      "category": "Peripherals",
+      "price": 89.99,
+      "inStock": true,
+      "rating": 4.6,
+      "tags": [
+        "mechanical",
+        "RGB",
+        "gaming"
+      ]
+    }
+  ]
+}
