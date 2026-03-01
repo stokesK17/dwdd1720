@@ -1,0 +1,40 @@
+@media only screen and (min-width: 35rem) {
+
+    header {
+        font-size: 2.5rem;
+        padding: 1.5rem 2rem;
+    }
+
+    #weatherCard {
+        max-width: 500px;
+        padding: 3rem;
+    }
+
+    .temperature {
+        font-size: 4rem;
+    }
+
+    .date {
+        font-size: 1.8rem;
+    }
+
+    #weatherCard img {
+        width: 150px;
+    }
+
+    aside.show {
+        max-width: 450px;
+        padding: 2.5rem;
+    }
+
+    aside input {
+        font-size: 1.1rem;
+        padding: .9rem;
+    }
+
+    aside button {
+        font-size: 1.1rem;
+        padding: 1rem;
+    }
+
+}
